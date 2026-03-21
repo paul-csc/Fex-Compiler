@@ -1,14 +1,14 @@
-# Fex Compiler
+# Fex Interpreter
 
 **Status: Active Development**
 
-This compiler is still under development. Features may change and bugs may be present.
+This interpreter is still under development. Features may change and bugs may be present.
 
 ---
 
-A compiler written in C++ for my custom programming language, **Fex**.
+An interpreter written in C++ for my custom programming language, **Fex**.
 
-The compiler supports:
+The interpreter supports:
 
 - Compiling source files
 - An interactive REPL when no file argument is provided
@@ -23,8 +23,8 @@ The compiler supports:
 ### Build Steps
 
 ```bash
-git clone https://github.com/paul-csc/Fex-Compiler.git
-cd Fex-Compiler
+git clone https://github.com/paul-csc/Fex-Interpreter.git
+cd Fex-Interpreter
 
 cmake -S . -B build
 cmake --build build
@@ -34,7 +34,7 @@ The compiled binary will be located in the `build` directory.
 
 ## Usage
 
-Run the compiler with a file:
+Run the interpreter with a file:
 
 ```bash
 fex program.fex
